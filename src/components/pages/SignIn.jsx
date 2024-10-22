@@ -6,7 +6,7 @@ export const SignIn = () => {
   return (
     <div>
         <h1>SignIn</h1>
-        <Link to="/signup" >Sign Up</Link>
+        <Link to="/" >Sign Up</Link>
     </div>
   );
 };
