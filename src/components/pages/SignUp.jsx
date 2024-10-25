@@ -34,7 +34,7 @@ export const SignUp = () => {
     <div className="sign_up_grid_container">
       <div className="blue_sign_up_side">
         <div className="overall_container">
-          <img className="logo" src={logo} alt="Our Logo" />
+          <img className='logo' src={logo} alt='Our Logo' />
           <div className="subcontent">
             <h1 className="subcontent_head chillax_heads">Hello Friend</h1>
             <p className="subcontent_par">
@@ -42,7 +42,7 @@ export const SignUp = () => {
             </p>
             <p className="start_journey">Start the journey with us.</p>
             <div className="btn_container">
-              <Link to="./signin" className="sign_in_btn">SIGN IN</Link>
+              <Link to='./signin' className='sign_in_btn'>SIGN IN</Link>
             </div>
           </div>
         </div>
