@@ -10,12 +10,12 @@ export const SignUp = () => {
   return (
     <div>
         <div className="sign_up_grid_container">
-            <div className="blue_sign_up_side">
+            <div className="blue_sign_in_side">
                 <div className="overall_container">
                     <img className='logo' src={logo} alt='Our Logo' />
                     {/* Sub-Content on the Blue Bg Container */}
                     <div className="subcontent">
-                        <h1 className="subcontent_head chillax_heads">Hello Friend</h1>
+                        <h1 className="subcontent_head chillax_heads">Hello Friend!</h1>
                         <p className="subcontent_par">Enter your personal details to Sign Up to  our
                             <strong> Uncommon</strong> Check-In System.
                         </p>
@@ -32,7 +32,7 @@ export const SignUp = () => {
                     <div className="create_account_content">
                         <h1 className='create_account overall_heads chillax_heads'>Create Account</h1>
                         <div className="google_sign_up">
-                            <Link>Sign up with Google</Link>
+                            <Link><i class="fa-brands fa-google"></i> Sign up with Google</Link>
                         </div>
                         <p className="or_statement">or use your Email Account for Registration</p>
                         <div className="form_container">
